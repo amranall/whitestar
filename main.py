@@ -16,8 +16,9 @@ app.include_router(auth_routes.router, prefix="/auth", tags=["tasks"])
 
 # configure CORS
 origins = [
-    "http://localhost:3000", # react app
-    "http://127.0.0.1:3000",
+    "http://localhost:3001", # react app
+    "http://127.0.0.1:3001",
+    "https://whitestar.sobjanta.ai",
     "http://localhost:8000", # react app
     # add any other origins
     # "http://localhost:3000/all-users",
